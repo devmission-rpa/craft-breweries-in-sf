@@ -1,0 +1,239 @@
+/* sets the background color for the entire page */
+body {
+  background-color: #ffe6b3;
+}
+
+/*sets the size and position of the image in desktop view */
+#tap {
+  height: 80%;
+  width: 60%;
+  margin-top: 10%;
+}
+
+/* sets the columns to take up the entire height of the screen */
+.col {
+  height: 80vh;
+}
+
+/*sets the font for the text to Google's Oswald Font */
+.oswald-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  width: 50%;
+  font-size: 3rem;
+}
+  
+/* fixes the background image and text for mobile phones and tablets */
+  @media screen and (max-width: 500px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 8%;
+  }
+    #tap {
+      height: 50%;
+      width: 125%;
+      margin-left: 25%;
+    object-fit: cover;
+    
+  }
+    } 
+
+
+@media screen and (min-width: 501px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 40%;
+      width: 100%;
+      margin-top: 16%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 660px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 80%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 70%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+  
+  .oswald-text {
+    font-size: 1.5rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 40%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 810px) {
+  
+  .oswald-text {
+    font-size: 1.25rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 90%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+@media screen and (min-width: 820px) {
+  
+  .oswald-text {
+    font-size: 2rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 50%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 840px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 90%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+  
+  .oswald-text {
+    font-size: 1.5rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 40%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 880px) {
+  
+  .oswald-text {
+    font-size: 1rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 80%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+  
+  .oswald-text {
+    font-size: 2rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 40%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 913px) {
+  
+  .oswald-text {
+    font-size: 1.5rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 80%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 930px) {
+  
+  .oswald-text {
+    font-size: 1.5rem;
+    margin-top: 15%;
+  }
+    #tap {
+      height: 80%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 1360px ) {
+  
+  .oswald-text {
+    font-size: 2rem;
+    margin-top: 20%;
+  }
+    #tap {
+      height: 40%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-height: 1000px ) {
+  
+  .oswald-text {
+    font-size: 1.8rem;
+    margin-top: 20%;
+  }
+    #tap {
+      height: 80%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+  
+  .oswald-text {
+    font-size: 2rem;
+    margin-top: 20%;
+  }
+    #tap {
+      height: 70%;
+      width: 100%;
+      margin-left: 16%;
+    }
+}

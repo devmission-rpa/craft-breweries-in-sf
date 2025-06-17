@@ -1,0 +1,538 @@
+body {
+  background-color: 
+}
+  /* sets the font for the H1 to Google's Merienda Font */
+.merienda-text {
+  font-family: "Merienda", cursive;
+  /*   font-optical-sizing: auto; */
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* keeps the font color of the dropdown menu items to black in dark mode */
+.titles {
+  -webkit-text-stroke: 1px black;
+}
+
+/* sets the left margin for the search bar for mobile phones and tablets */
+@media screen and (max-width: 428px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* sets the background color and border to black for the Light/Dark mode toggle button */
+.form-check-input:checked {
+  background-color: black;
+  border-color: black;
+}
+
+/* keeps the font color to black for the Light/Dark mode toggle button */
+.form-check-label {
+  color: black;
+}
+
+/* sets the left margin for the search bar */
+.form-inline {
+  margin-left: 4rem;
+}
+
+/* sets the left margin for the search bar for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .form-inline {
+    margin-left: 2rem;
+  }
+}
+
+/* sets the size logo in list view */
+.card-img-top {
+  height: 14rem;
+  width: 20rem;
+  object-fit: contain;
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (max-width: 400px) {
+  .move {
+    margin-left: 0;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 401px) {
+  .move {
+    margin-left: 1.5rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 700px) {
+  .move {
+    margin-left: 11rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 750px) {
+  .move {
+    margin-left: 12rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 800px) {
+  .move {
+    margin-left: 12rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 900px) {
+  .move {
+    margin-left: 16rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1000px) {
+  .move {
+    margin-left: 18rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1100px) {
+  .move {
+    margin-left: 12rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1200px) {
+  .move {
+    margin-left: -6rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1400px) {
+  .move {
+    margin-left: -4rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1500px) {
+  .move {
+    margin-left: -4rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1700px) {
+  .move {
+    margin-left: -2rem;
+  }
+}
+
+/* sets the left margin for the cards in list view for mobile phones and tablets */
+@media screen and (min-width: 1900px) {
+  .move {
+    margin-left: 0rem;
+  }
+}
+
+/* sets the size of the logo in detail view */
+.img-fluid {
+  height: 18rem;
+  width: 24rem;
+  object-fit: contain;
+}
+
+/* sets the size of the brewery image in detail view */
+.front {
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+/* removes the border in list view and the first card in detail view */
+.list {
+  border: none;
+  width: 95%;
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 700px) {
+  .desc {
+    margin-left: 4rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 800px) {
+  .desc {
+    margin-left: 4rem;
+  }
+}
+
+/* sets the margin below the navbar in desktop view */
+header {
+  margin-bottom: 8rem;
+}
+
+/* sets the margin below the navbar for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  header {
+    margin-bottom: 10rem;
+  }
+}
+
+/* sets the margin below the navbar for mobile phones and tablets */
+@media screen and (max-width: 900px) {
+  header {
+    margin-bottom: 12rem;
+  }
+}
+
+/* sets left margin and container size for all fetched data*/
+.tables {
+  margin-left: 12vw;
+  width: 90vw;
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .tables {
+    margin-left: 1.25rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (max-width: 1100px) {
+  .tables {
+    margin-left: 1rem;
+  }
+}
+
+/* sets the font for the card text in detail view */
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* sets the font for the card title in detail view */
+.bar {
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+/* sets the color for the rating and address in detail view */
+.text-body-secondary {
+  color: black;
+}
+
+/* reduces left margin of the row for the cards showing hours for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .hours {
+    margin-left: 1rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 700px) {
+  .hours {
+    margin-left: 4rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 750px) {
+  .hours {
+    margin-left: 12rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 800px) {
+  .hours {
+    margin-left: 12rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 900px) {
+  .hours {
+    margin-left: 9rem;
+  }
+}
+
+/* reduces left margin for mobile phones and tablets */
+@media screen and (min-width: 1000px) {
+  .hours {
+    margin-left: 6rem;
+  }
+}
+
+/* sets the left and bottom margin and width of the row for the cards showing hours in detail view */
+@media screen and (min-width: 1100px) {
+  .hours {
+    width: 54rem;
+    margin-left: 14rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* sets the left and bottom margin and width of the row for the cards showing hours in detail view */
+@media screen and (min-width: 1400px) {
+  .hours {
+    width: 54rem;
+    margin-left: 12rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* sets the left and bottom margin and width of the row for the cards showing hours in detail view */
+@media screen and (min-width: 1500px) {
+  .hours {
+    width: 54rem;
+    margin-left: 11rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* sets the left and bottom margin and width of the row for the cards showing hours in detail view */
+@media screen and (min-width: 1700px) {
+  .hours {
+    width: 54rem;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* sets the left and bottom margin and width of the row for the cards showing hours in detail view */
+@media screen and (min-width: 1900px) {
+  .hours {
+    width: 54rem;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .misc {
+    margin-left: 1rem;
+    width: 24rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 700px) {
+  .misc {
+    margin-left: 4rem;
+    width: 24rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 750px) {
+  .misc {
+    margin-left: 12rem;
+    width: 24rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 800px) {
+  .misc {
+    margin-left: 12rem;
+    width: 24rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 900px) {
+  .misc {
+    margin-left: 9rem;
+    width: 24rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1000px) {
+  .misc {
+    width: 24rem;
+    margin-left: 6rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1100px) {
+  .misc {
+    width: 24rem;
+    margin-left: 14rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1400px) {
+  .misc {
+    width: 24rem;
+    margin-left: 12rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1500px) {
+  .misc {
+    width: 24rem;
+    margin-left: 11rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1700px) {
+  .misc {
+    width: 24rem;
+    margin-left: 8rem;
+  }
+}
+
+/* sets left margin of the table showing brewery info for mobile phones and tablets */
+@media screen and (min-width: 1900px) {
+  .misc {
+    width: 24rem;
+    margin-left: 6rem;
+  }
+}
+
+/*sets the bullet points for the hours, food and merchandise in detail view */
+li {
+  list-style-type: circle;
+}
+
+/*sets the width of the website and yelp buttons in detail view */
+.go {
+  width: 6rem;
+}
+
+/* removes the bullet points for list items in dropdown menu */
+.bullet {
+  list-style-type: none !important;
+}
+
+/* sets the background color and width of the navbar and the color of the active nav item */
+.navbar {
+  background-color: #ffe6b3;
+  width: 100vw;
+  --bs-navbar-active-color: black;
+  --bs-navbar-brand-color: black;
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .explore {
+    margin-right: 4.5rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 600px) {
+  .explore {
+    margin-right: 7rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 700px) {
+  .explore {
+    margin-right: 6rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 1000px) {
+  .explore {
+    margin-right: 4rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 1400px) {
+  .explore {
+    margin-right: 16rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (max-width: 399px) {
+  .top-30 {
+    margin-top: -0.5rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 400px) {
+  .top-30 {
+    margin-top: -4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 550px) {
+  .top-30 {
+    margin-top: -4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 800px) {
+  .top-30 {
+    margin-top: -4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 849px) {
+  .top-30 {
+    margin-top: -2.3rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 900px) {
+  .top-30 {
+    margin-top: -2.3rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 1020px) {
+  .top-30 {
+    margin-top: 4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 1270px) {
+  .top-30 {
+    margin-top: 4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (min-width: 1400px) {
+  .top-30 {
+    margin-top: 0rem;
+  }
+}
+
+/* sets the width of the input text box of the search bar in the nav bar */
+input[type="text"] {
+  width: 13.5rem;
+}
+

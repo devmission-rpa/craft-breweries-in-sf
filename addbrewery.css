@@ -1,0 +1,81 @@
+/* adds the background image and sets it to take up the entire screen without repeating */
+.main {
+  background-image: url("images/Add\ brewery\ \(1\).png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*   height: 100vh; */
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8rem;
+  object-fit: none;
+}
+
+/* sets the margin below the navbar for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .main {
+    background-size: cover;
+    padding-top: 4em;
+  }
+}
+
+/* sets the margin below the navbar in desktop view */
+header {
+  margin-bottom: 4rem;
+}
+
+/* sets the margin below the navbar for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  header {
+    margin-bottom: 8rem;
+  }
+}
+
+/* sets the color and width of the navbar */
+.navbar {
+  background-color: #ffe6b3;
+  width: 100vw;
+}
+
+/* sets the font for the H1 to Google's Merienda Font */
+.merienda-text {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .explore {
+    margin-right: 2rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 1000px) {
+  .explore {
+    margin-right: 4rem;
+  }
+}
+
+/* sets right margin for the dropdown menu for mobile phones and tablets */
+@media screen and (min-width: 1400px) {
+  .explore {
+    margin-right: 4rem;
+  }
+}
+
+/* sets the dropdown menu location for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  .top-30 {
+    margin-top: -2rem;
+  }
+}
+
+/* sets the width of the iframe form for mobile phones and tablets */
+@media screen and (max-width: 550px) {
+  iframe {
+    width: 80%;
+    height: 2000;
+  }
+}

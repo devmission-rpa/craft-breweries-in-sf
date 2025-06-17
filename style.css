@@ -1,0 +1,102 @@
+/* adds the background image and sets it to take up the entire screen without repeating */
+body {
+  background-image: url("images/beer\ on\ beach\ \(1\).jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*   height: 100vh; */
+  width: 100vw;
+}
+
+/* fixes the background image and moves down the buttons for mobile phones and tablets */
+@media screen and (max-width: 849px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+  .align-items-center {
+    margin-top: 16rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    background-size: 100% 100%;
+  }
+  .align-items-center {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+
+/* sets the container and columns to take up the entire height of the screen */
+.enter .col {
+  height: 80vh;
+}
+
+/*sets the font for the H1 to Google's Merienda Font */
+.merienda-text {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* sets the height of the first row containing the H1 title */
+.high {
+  height: 20vh;
+}
+
+/* sets the height of the second row containing the buttons */
+.low {
+  height: 80vh;
+}
+
+/* sets a secondary outline border, the font type and color, adds an outline around the text 
+and sets the button width and thickness */
+.btn-outline-warning {
+  border-width: thick;
+  border-radius: 10px;
+  color: white;
+  -webkit-text-stroke: 1px #ffc107;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  outline: 2px white solid;
+  width: 8rem;
+}
+
+/* sets a secondary outline border, sets the font type and changes the color, adds an outline around the text 
+and sets the button width and thickness when hovering over button */
+.btn-outline-warning:hover {
+  border-width: thick;
+  border-radius: 10px;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  outline: 2px white solid;
+  width: 8rem;
+}
+
+/* sets the height and width of the logo */
+.logo {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
