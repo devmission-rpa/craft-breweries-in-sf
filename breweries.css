@@ -1,3 +1,15 @@
+/* sets the background color in Light mode and blends in the logos */
+body {
+  background-color: #F5F3EF;
+  mix-blend-mode: darken;
+}
+
+/* sets the background color in dark mode and blends in the logos */
+body[data-bs-theme=dark] {
+  background-color: #212529;
+  mix-blend-mode: lighten;
+}
+  
   /* sets the font for the H1 to Google's Merienda Font */
 .merienda-text {
   font-family: "Merienda", cursive;
