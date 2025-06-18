@@ -1,6 +1,6 @@
 /* sets the background color for the entire page */
 body {
-  background-color: #ffe6b3;
+  background-color: #E2BF79;
 }
 
 /*sets the size and position of the image in desktop view */
@@ -23,6 +23,7 @@ body {
   font-style: normal;
   width: 50%;
   font-size: 3rem;
+  color: #333333;
 }
   
 /* fixes the background image and text for mobile phones and tablets */

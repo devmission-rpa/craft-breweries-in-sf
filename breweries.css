@@ -1,6 +1,3 @@
-body {
-  background-color: 
-}
   /* sets the font for the H1 to Google's Merienda Font */
 .merienda-text {
   font-family: "Merienda", cursive;
@@ -427,7 +424,7 @@ li {
 
 /* sets the background color and width of the navbar and the color of the active nav item */
 .navbar {
-  background-color: #ffe6b3;
+  background-color: #ffbf80;
   width: 100vw;
   --bs-navbar-active-color: black;
   --bs-navbar-brand-color: black;
