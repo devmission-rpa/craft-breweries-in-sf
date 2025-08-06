@@ -1,5 +1,12 @@
 "use strict";
 
+//function to toggle between light and dark mode
+function myToggle() {
+  let element = document.body;
+  element.dataset.bsTheme =
+    element.dataset.bsTheme == "light" ? "dark" : "light";
+}
+
 // function for our list view
 async function getAllRecords() {
   let getResultElement = document.getElementById("brews");
@@ -111,13 +118,6 @@ function myFunction() {
   } else {
     x.style.display = "none";
   }
-}
-
-//function to toggle between light and dark mode
-function myToggle() {
-  let element = document.body;
-  element.dataset.bsTheme =
-    element.dataset.bsTheme == "light" ? "dark" : "light";
 }
 
 //function to hide search bar for mobile devices
