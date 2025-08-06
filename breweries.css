@@ -1,16 +1,16 @@
 /* sets the background color in Light mode and blends in the logos */
 body {
-  background-color: #F5F3EF;
+  background-color: #f5f3ef;
   mix-blend-mode: darken;
 }
 
 /* sets the background color in dark mode and blends in the logos */
-body[data-bs-theme=dark] {
+body[data-bs-theme="dark"] {
   background-color: #212529;
   mix-blend-mode: lighten;
 }
-  
-  /* sets the font for the H1 to Google's Merienda Font */
+
+/* sets the font for the H1 to Google's Merienda Font */
 .merienda-text {
   font-family: "Merienda", cursive;
   /*   font-optical-sizing: auto; */
@@ -544,4 +544,3 @@ li {
 input[type="text"] {
   width: 13.5rem;
 }
-

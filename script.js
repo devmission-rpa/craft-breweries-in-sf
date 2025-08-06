@@ -1,12 +1,5 @@
 "use strict";
 
-//function to toggle between light and dark mode
-function myToggle() {
-  let element = document.body;
-  element.dataset.bsTheme =
-    element.dataset.bsTheme == "light" ? "dark" : "light";
-}
-
 // function for our list view
 async function getAllRecords() {
   let getResultElement = document.getElementById("brews");
